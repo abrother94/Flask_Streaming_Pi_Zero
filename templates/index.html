@@ -1,0 +1,19 @@
+<html>
+    <head>
+	<title>Hello~</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+	<h1>Hello to U all~</h1>
+	<li><a href="{{ url_for('about') }}">About</a></li>
+	<li><a href="{{ url_for('photos') }}">Photo</a></li>
+	<li><a href="{{ url_for('playfm') }}">PlayFM</a></li>	
+    <li><a href="{{ url_for('say') }}">Say something!</a></li>		
+	<strong><nav>
+		<ul class="menu">
+	            <img src="{{ url_for('video_feed') }}"   >
+		</ul>
+	    </nav></strong>
+    </body>
+</html>
+
